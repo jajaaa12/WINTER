@@ -1,5 +1,5 @@
 _G.FishItConfig = _G.FishItConfig or {
- ["Fishing"] = {
+    ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = false,
 
@@ -7,23 +7,27 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
+            "Elshark Gran Maja",
+            "Gladiator Shark",
             {Name = "Ruby", Variant = "Gemstone"},
-            -- {Variant = "Leviathan's Rage"}, -- Variant Only
+            -- {Variant = "Leviathan Rage"}, -- Variant Only
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
         },
 
         ["Auto Accept Trade"] = true,
-        ["Auto Friend Request"] = true,
+        ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Jackbow19"},
+        ["Whitelist Username"] = {"poterok43", "butokep29", "Kinhahahha", "kudacuki367"},
         ["Category Fish"] = {
             "Secret",
+            -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
+            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
-            -- {Variant = "Leviathan's Rage"}, -- Variant Only
+            -- {Variant = "Leviathan Rage"}, -- Variant Only
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
@@ -40,8 +44,10 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
-        ["Unlock Ancient Ruin"] = false,
+        ["Auto Element Rod"] = false,
+        ["Auto Element Rod 2"] = false,
+        ["Auto Diamond Rod"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -50,25 +56,26 @@ _G.FishItConfig = _G.FishItConfig or {
             "King Crab",
             "Giant Squid",
             "Blob Shark",
-            "Ghost Shark",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Sisyphus Statue",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1456627752416575602/O24ajOgWcB5MtGlXKgwWKyHT0OERSTTxwNZFB_I_Awl37VeZ7_qrFPuCVHKRsXnb5eFP",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},
-
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1456419547740504194/dOkgqaEPJuVZ305tYEhWRAo5DKeBD3ZXq2ns7es7W6GXU_2HeQpCCUV_xxDL_wzs2AIo",
+        ["Category"] = {
+            "Secret",
+            {Name = "Ruby", Variant = "Gemstone"},
+        },
+        ["Item Name"] = {"Evolved Enchant Stone"},
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1481118179798552808/Z_ZPM7FsC24EOe6sBUWh-2CC5YcqEBJ8JTFNUoY1daTkVPy4yi2vpk9HcxZ844bSmS7v",
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1481118388444073984/H4Ackbi5D357XlIMg9pFA7dnsJqGPEQc6JNx2Tp_dzOLdYk3EaVtp9K7efT0TeSsluHC",
     },
     ["Weather"] = {
-        ["Auto Buying"] = true,
+        ["Auto Buying"] = false,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
-            "Storm",
         },
     },
     ["Potions"] = {
@@ -79,27 +86,27 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 5,
+            ["Luck Totem"] = 18,
         },
     },
     ["Event"] = {
         ["Start Farm"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
-            ["Christmas Cave"] = false,
-            ["Hacker Event"] = false,
             "Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
+            -- ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true, -- true = Roll until get TOP 1 enchant only (first in list)
-        ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
+        ["Auto Enchant"] = false,
+        ["Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Cursed I",
+            "Reeler II",
             "SECRET Hunter",
+            "Shark Hunter",
             "Mutation Hunter III",
             "Leprechaun II",
             "Mutation Hunter II",
@@ -124,9 +131,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
-            "Singularity Bait",
         },
-        ["Endgame"] = "Singularity Bait",
+        ["Endgame"] = "",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -135,30 +141,29 @@ _G.FishItConfig = _G.FishItConfig or {
             "Midnight Rod",
             "Astral Rod",
             "Ares Rod",
-            "",
+            "Angler Rod",
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Ancient Ruin",
     },
 
-
-    ["ExtremeFpsBoost"] = false,
+    ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
-    ["AutoRemovePlayer"] = false,
+    ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = false,
-    ["EXIT_MAP_IF_DISCONNECT"] = false,
     ["HideGUI"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 
-script_key="";
+script_key="A8C772FCE85025A7DE5A71D127C85008";
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
