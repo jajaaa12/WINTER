@@ -9,6 +9,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Sacred Guardian Squid",
             "Elshark Gran Maja",
             "Gladiator Shark",
+            "Queen Crab",
+            "King Crab",
             {Name = "Ruby", Variant = "Gemstone"},
             -- {Variant = "Leviathan Rage"}, -- Variant Only
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
@@ -86,7 +88,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 18,
+            ["Mutation Totem"] = 20,
         },
     },
     ["Event"] = {
@@ -131,8 +133,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
+            "Singularity Bait",
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Singularity Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -145,11 +148,10 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
+            ["Treasure Room"] = {"Ares Rod", "Astral Rod", "Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Ancient Ruin",
+        ["Endgame"] = "Treasure Room",
     },
 
     ["ExtremeFpsBoost"] = true,
