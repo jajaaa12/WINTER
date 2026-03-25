@@ -152,7 +152,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
             ["Ancient Ruin"] = {"Ghostfinn Rod", "Element Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "Ancient Ruin",
     },
 
     ["ExtremeFpsBoost"] = true,
