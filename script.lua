@@ -32,7 +32,7 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Variant = "Leviathan Rage"}, -- Variant Only
         },
         ["Item Name"] = {
-            "Evolved Enchant Stone",
+            "Eggy Enchant Stone",
         },
     },
     ["Farm Coin Only"] = {
@@ -70,8 +70,8 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {"Evolved Enchant Stone"},
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1481118179798552808/Z_ZPM7FsC24EOe6sBUWh-2CC5YcqEBJ8JTFNUoY1daTkVPy4yi2vpk9HcxZ844bSmS7v",
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1481118388444073984/H4Ackbi5D357XlIMg9pFA7dnsJqGPEQc6JNx2Tp_dzOLdYk3EaVtp9K7efT0TeSsluHC",
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1448556769667190805/biTkisZ5CCIbKFy_UzsFjRjxMCPuBAMH2bvktx0f247cwLdkB6CmvmOYXrGHi1cmUe5N",
+        ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
         ["Auto Buying"] = false,
@@ -151,8 +151,10 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
             ["Ancient Ruin"] = {"Ghostfinn Rod", "Element Rod"},
+            ["Easter Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Easter Cave"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Ancient Ruin",
+        ["Endgame"] = "Easter Cave",
     },
 
     ["ExtremeFpsBoost"] = true,
