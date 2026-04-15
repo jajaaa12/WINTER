@@ -160,3 +160,9 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
+
+script_key="A8C772FCE85025A7DE5A71D127C85008";
+
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
